@@ -14,10 +14,10 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="cars : ${cars}">
-        <td th:text="${cars.getBrand()  }"> </td>
-        <td th:text="${cars.getModel()  }"> </td>
-        <td th:text="${cars.getSeries()  }"></td>
+    <tr th:each="carr : ${cars}">
+        <td th:text="${carr.getBrand()}"> </td>
+        <td th:text="${carr.getModel()}"> </td>
+        <td th:text="${carr.getSeries()}"></td>
     </tr>
     </tbody>
 </table>
